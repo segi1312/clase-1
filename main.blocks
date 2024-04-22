@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="M5hho)^JjmFQl3;5v%(=">mySprite</variable><variable type="KIND_SpriteKind" id="5oC~o_@I]vVjM?Dl2_19">Player</variable><variable type="KIND_SpriteKind" id="sukJ3)`p}@p]jN}*L-R1">Projectile</variable><variable type="KIND_SpriteKind" id="4M]u.Ez${*#HjktA+iC3">Food</variable><variable type="KIND_SpriteKind" id="uI=2L?sT27edM2:SJ_SY">Enemy</variable></variables><block type="pxt-on-start" id="2Hg=+=NT5Bw4S?D?qB,y" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="!!SDVc}7yq0531q@rS7?"><field name="VAR" id="M5hho)^JjmFQl3;5v%(=">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="13TY,HA1R@:bGOVsp_{j"><value name="img"><shadow type="screen_image_picker" id="avYpx8e]=vIA+]6KO{`8"><field name="img">img`
+. . . . f f f f f . . . . . . . 
+. . . f e e e e e f . . . . . . 
+. . f d d d d e e e f . . . . . 
+. c d f d d f d e e f f . . . . 
+. c d f d d f d e e d d f . . . 
+c d e e d d d d e e b d c . . . 
+c d d d d c d d e e b d c . f f 
+c c c c c d d d e e f c . f e f 
+. f d d d d d e e f f . . f e f 
+. . f f f f f e e e e f . f e f 
+. . . . f e e e e e e e f f e f 
+. . . f e f f e f e e e e f f . 
+. . . f e f f e f e e e e f . . 
+. . . f d b f d b f f e f . . . 
+. . . f d d c d d b b d f . . . 
+. . . . f f f f f f f f f . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"avYpx8e]=vIA+]6KO{`8"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="?~h!ga-BZQXTIod*W4ds"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="music_playable_play" id="4nSBZv4$ZqNco~/,pa19"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="kH;UBr[Hq+COvJvKLuyz"><value name="melody"><shadow type="melody_editor" id=")d3WR^RLp%RM0R[D?r%w"><field name="melody">"C D G A E F E D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="-8NUt[862LA7vdfO^fB3"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">150</field></shadow></value></shadow></value></block></next></block></statement></block></xml>
